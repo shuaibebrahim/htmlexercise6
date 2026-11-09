@@ -1,0 +1,155 @@
+
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main Layout */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color: #2196F3;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Contact Form Section */
+.contact-section,
+.schedule-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #2196F3;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+button {
+    background-color: #2196F3;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0b7dda;
+}
+
+/* Table Container */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 450px;
+}
+
+/* Table Cells */
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Header */
+th {
+    background-color: #2196F3;
+    color: white;
+}
+
+/* Striped Rows */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Table Hover Effect */
+tbody tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+
+    .container {
+        padding: 12px;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+
+    .contact-section,
+    .schedule-section {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+}
